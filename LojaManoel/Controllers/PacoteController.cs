@@ -9,9 +9,9 @@ namespace LojaManoel.Controllers
     public class PacoteController : ControllerBase
     {
         private readonly PacoteService _pacoteService;
-        public PacoteController(PacoteService packingService)
+        public PacoteController(PacoteService pacoteService)
         {
-            _pacoteService = packingService;
+            _pacoteService = pacoteService;
         }
 
         [HttpPost]

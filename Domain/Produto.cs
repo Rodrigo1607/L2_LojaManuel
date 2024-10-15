@@ -1,0 +1,22 @@
+﻿namespace Domain
+{
+    public class Produto
+    {
+        public int Id { get; private set; }
+        public string Nome { get; private set; }
+        public decimal Altura { get; private set; }
+        public decimal Largura { get; private set; }
+        public decimal Comprimento { get; private set; }
+
+        public Produto(int id, string nome, decimal altura, decimal largura, decimal comprimento)
+        {
+            Id = id;
+            Nome = nome;
+            Altura = altura;
+            Largura = largura;
+            Comprimento = comprimento;
+        }
+    }
+
+    
+}
